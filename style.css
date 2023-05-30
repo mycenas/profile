@@ -1,0 +1,111 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Mukta:wght@300;400;500;700");
+
+/* body */
+body {
+  background-color: #675067;
+  font-family: 'Roboto Mono', sans-serif;
+  color: #564256;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* divs */
+
+div {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background: #adadad;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+/* headers */
+h1, h2, h3 {
+  color: #07da76;
+  font-family: 'Roboto Mono', sans-serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* links */
+a {
+  color: #FFBF69;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9F1C;
+  text-decoration: none;
+}
+
+/* images */
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+i {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* media queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
